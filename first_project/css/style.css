@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Raleway", Helvetica, sans-serif;
+    color: #444;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
