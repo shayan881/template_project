@@ -128,3 +128,45 @@ a {
     font-size: 22px;
     color: #858585;
 }
+
+.icon:before {
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+.color-blue {
+    color: #ffffff;
+    background-color: #3cadd4;
+}
+
+.color-green {
+    color: #ffffff;
+    background-color: #add43c;
+}
+
+.color-red {
+    color: #ffffff;
+    background-color: #d43c61;
+}
+
+.big {
+    font-size: 40px;
+    padding: 35px 50px;
+}
+
+.rounded {
+    border-radius: 100%;
+}
+
+.services-content>* {
+    float: left;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid rgba(144, 144, 144, 0.25);
+    border-radius: 4px;
+    padding: 70px 30px;
+    margin: 0 10px;
+    width: calc(calc(100% / 3) - 82px);
+}
