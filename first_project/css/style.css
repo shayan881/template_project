@@ -1,12 +1,22 @@
 @import url(font-awesome.min.css);
 
+@font-face {
+    font-family: "Raleway", Helvetica, sans-serif;
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0;
 }
 
 body {
-    font-family: "Raleway", Helvetica, sans-serif;
+    font-family: Helvetica;
     color: #444;
+}
+
+h1,
+h2 {
+    font-family: 'Raleway';
 }
 
 a {
@@ -47,13 +57,14 @@ a {
 }
 
 .btn {
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 30px;
     border: 0;
     cursor: pointer;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 16px;
     color: #ffff;
+    font-family: 'Raleway';
 }
 
 .btn-gray {
@@ -72,21 +83,22 @@ a {
 }
 
 .btn-big {
-    font-size: 2.1vw !important;
+    font-size: 20px !important;
+    padding: 17px 35px;
 }
 
 .banner-content {
     text-align: center;
     color: #fff;
-    padding: 150px 0;
+    padding: 130px 0;
 }
 
 .banner-content h2 {
-    font-size: 5vw;
+    font-size: 60px;
     line-height: 130px;
 }
 
 .banner-content p {
-    font-size: 2.5vw;
+    font-size: 22px;
     margin-bottom: 50px;
 }
