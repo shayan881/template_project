@@ -15,7 +15,11 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Raleway';
 }
 
@@ -169,4 +173,34 @@ a {
     padding: 70px 30px;
     margin: 0 10px;
     width: calc(calc(100% / 3) - 82px);
+}
+
+.services-content:before,
+.services-content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box h4 {
+    color: #858585;
+    font-size: 20px;
+    margin: 60px 0 30px 0;
+}
+
+.box p {
+    line-height: 25px;
+}
+
+.services-content {
+    width: 85%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:835px) {
+    .box {
+        width: 100%;
+        padding: 60px 0;
+        margin: 10px 0;
+    }
 }
