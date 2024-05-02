@@ -347,3 +347,21 @@ input:focus,
 textarea:focus {
     outline: none;
 }
+
+
+/* -------- */
+.footer {
+    background-color: #383b43;
+    padding: 100px 0px;
+}
+
+.copyright li {
+    color: #858585;
+    display: inline;
+    font-size: 15px;
+    margin: 0px 5px;
+}
+
+.copyright a {
+    color: #858585;
+}
