@@ -274,3 +274,34 @@ a {
     }
 
 }
+
+.about-footer {
+    color: #858585;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.about-footer p {
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+
+.contact {
+    background-color: #3cadd4;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.contact-header {
+    text-align: center;
+}
+
+.contact-header h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact-header p {
+    font-size: 20px;
+}
