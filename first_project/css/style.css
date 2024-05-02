@@ -204,3 +204,21 @@ a {
         margin: 10px 0;
     }
 }
+
+/* -------- */
+
+.about {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-header h2 {
+    font-size: 42px;
+    margin-bottom: 12px;
+    color: #474747;
+}
+
+.about-header p {
+    font-size: 22px;
+    color: #858585;
+}
