@@ -203,6 +203,8 @@ a {
         padding: 60px 0;
         margin: 10px 0;
     }
+
+
 }
 
 /* -------- */
@@ -221,4 +223,54 @@ a {
 .about-header p {
     font-size: 22px;
     color: #858585;
+}
+
+.about-content {
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+    margin: 60px auto;
+    padding-top: 60px;
+    width: 95%;
+}
+
+.about-content>* {
+    float: left;
+}
+
+.about-content:before,
+.about-content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.profile {
+    width: 25%;
+    margin-bottom: 60px;
+}
+
+.profile img {
+    border-radius: 50%;
+    float: left;
+}
+
+.profile h4 {
+    margin-top: 20px;
+}
+
+.profile p {
+    line-height: 25px;
+}
+
+
+@media only screen and (max-width:835px) {
+    .profile {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .profile img {
+        float: none;
+    }
+
 }
