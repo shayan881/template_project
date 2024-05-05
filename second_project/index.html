@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>Document</title>
 </head>
 
@@ -14,7 +15,8 @@
         <header>
             <nav class="header">
                 <img src="./images/logo-black.png" alt="" class="header-logo">
-                <ul class="header-menu">
+                <button class="header-menu-burger" onclick="showMenu()"><i class="fas fa-bars"></i></button>
+                <ul class="header-menu" id="menu">
                     <li class="header-menu-item"><a href="#" class="header-menu-item-link">NEWS</a></li>
                     <li class="header-menu-item"><a href="#" class="header-menu-item-link">GUIDES & ANALYTICS</a></li>
                     <li class="header-menu-item"><a href="#" class="header-menu-item-link">EVENTS</a></li>
@@ -29,6 +31,16 @@
 
     <footer class="footer"></footer>
 
+    <script>
+        let showMenu = () => {
+            var menu = document.getElementById('menu');
+            if (menu.className === 'header-menu') {
+                menu.className += ' show';
+            } else {
+                menu.className = 'header-menu';
+            }
+        }
+    </script>
 </body>
 
 </html>
