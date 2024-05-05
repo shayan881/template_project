@@ -91,3 +91,32 @@ b {
     font-weight: 700;
     transition: all .2s;
 }
+
+.app {
+    width: 1200px;
+}
+
+@media (max-width:1199.98px) {
+    .app {
+        width: 992px;
+    }
+}
+
+@media (max-width:991.98px) {
+    .app {
+        width: 768px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .app {
+        width: 576px;
+    }
+}
+
+@media (max-width:575.98px) {
+    .app {
+        width: calc(100% - 30px);
+        padding: 0 15px;
+    }
+}
