@@ -139,7 +139,7 @@ a:hover>b {
     padding: 0 15px;
     line-height: 80px;
     font-weight: 700;
-    color: #333!important;
+    color: #333 !important;
 }
 
 .header-menu-burger {
@@ -151,7 +151,7 @@ a:hover>b {
 }
 
 .show {
-    display: inline-block!important;
+    display: inline-block !important;
 }
 
 @media (max-width:991.98px) {
@@ -159,6 +159,7 @@ a:hover>b {
         height: 15px;
         margin: 32px 0;
     }
+
     .header-menu-item-link {
         padding: 0 5px;
     }
@@ -168,10 +169,12 @@ a:hover>b {
     .header-menu-burger {
         display: inline-block;
     }
+
     .header-menu {
         display: none;
         width: 100%;
     }
+
     .header-menu-item {
         display: block;
         border-bottom: 1px solid #cecece;
@@ -260,4 +263,44 @@ a:hover>b {
 .bg-6 {
     background: url("../images/slider-6-450x600.jpg") no-repeat center;
     background-size: cover;
+}
+
+.intro-item-caption {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.caption-title {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.caption-title span {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.caption-title b {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.caption-info-bar {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.caption-info-bar li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #ffffff;
 }
