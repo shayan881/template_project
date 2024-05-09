@@ -304,3 +304,78 @@ a:hover>b {
     margin-right: 20px;
     color: #ffffff;
 }
+
+.img-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.mr-10x {
+    margin-right: 10px;
+}
+
+.mt-10x {
+    margin-top: 10px;
+}
+
+.ml-10x {
+    margin-left: 10px;
+}
+
+.mb-10x {
+    margin-bottom: 10px;
+}
+
+@media (max-width:767.98px) {
+    .intro-2-3-col {
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+    }
+
+    .intro-1-3-col {
+        width: 100%;
+    }
+
+    .intro-1-3-col-item {
+        float: none;
+        width: 100%;
+    }
+
+    .intro-1-3-col-item:nth-child(2) {
+        float: none;
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .intro-h-600px {
+        height: auto;
+    }
+
+    .intro-h-100 {
+        height: auto;
+    }
+
+    .intro-h-50 {
+        height: auto;
+    }
+
+    .intro-h-2-3 {
+        height: auto;
+    }
+
+    .intro-h-1-3 {
+        height: auto;
+    }
+
+
+    .h-md-300px {
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+}
