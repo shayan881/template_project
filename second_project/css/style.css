@@ -431,3 +431,31 @@ a:hover>b {
     border-bottom: 1px solid #ffff;
     text-align: center;
 }
+
+.popular-post {
+    width: 100%;
+}
+
+
+.popular-post:before,
+.popular-post:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.popular-post-img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.popular-post-title {
+    float: right;
+    margin-left: 20px;
+    width: calc(100% - 120px);
+}
+
+.popular-post-title h3 a b {
+    font-size: 18px;
+}
