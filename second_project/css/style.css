@@ -379,3 +379,22 @@ a:hover>b {
     }
 
 }
+
+.container {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.main {
+    float: left;
+    width: calc(calc(200% / 3) - 25px);
+    margin-right: 25px;
+}
+
+.main-news {
+    margin-bottom: 20px;
+}
+
+.main-news-img {
+    width: 100%;
+}
