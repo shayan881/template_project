@@ -408,3 +408,26 @@ a:hover>b {
 .main-news-w-50:last-of-type {
     margin-right: 0;
 }
+
+.sidebar {
+    float: right;
+    width: calc(calc(100% / 3) - 25px);
+    margin-left: 25px;
+}
+
+.sidebar-item {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-list li {
+    padding: 15px 0;
+    background-color: #F9B500 !important;
+    border-bottom: 1px solid #ffff;
+    text-align: center;
+}
