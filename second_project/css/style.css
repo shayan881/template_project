@@ -398,3 +398,13 @@ a:hover>b {
 .main-news-img {
     width: 100%;
 }
+
+.main-news-w-50 {
+    width: calc(50% - 25px);
+    margin-right: 25px;
+    float: left;
+}
+
+.main-news-w-50:last-of-type {
+    margin-right: 0;
+}
