@@ -150,6 +150,15 @@ a:hover>b {
     line-height: 80px;
 }
 
+.header-menu-burger i {
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+}
+
+.header-menu-burger i:hover {
+    color: #F9B500;
+}
+
 .show {
     display: inline-block !important;
 }
@@ -622,4 +631,33 @@ a:hover>b {
 .footer-social-network li a {
     color: #cccccc;
     font-size: 12px;
+}
+
+@media (max-width:575.98px) {
+    .footer-col {
+        float: none;
+        padding: 15px;
+        width: calc(100% - 30px);
+        margin-right: 0;
+    }
+
+    .footer-menu {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-menu li {
+        padding: 10px;
+    }
+
+    .footer-social-network {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-social-network li {
+        padding: 10px;
+    }
 }
