@@ -1,7 +1,11 @@
 .grid-container {
     display: grid;
     /* display: inline-grid; */
-    grid-template-columns: auto auto auto auto auto;
+    /* column-gap: 40px; */
+    /* row-gap: 30px; */
+    /* gap: 40px 100px; /* gap: row column */
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;
     /* grid-template-columns: repeat(3, auto); */
 
     background-color: skyblue;
@@ -15,4 +19,16 @@
     text-align: center;
     padding: 25px;
 
+}
+
+
+/* .first-item {
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+} */
+
+.first-item {
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
