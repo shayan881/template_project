@@ -32,3 +32,41 @@ body {
 .content-3 {
     background-image: linear-gradient(130deg, #6c52d9 0%, #1eaafc 85%, #3edfd7 100%);
 }
+
+.container {
+    display: grid;
+    width: 750px;
+    height: 600px;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 100px;
+    grid-template-areas:
+        'header header header'
+        'sidebar content-1 content-1'
+        'sidebar content-2 content-3'
+        'footer footer footer';
+    gap: 1rem;
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content-1 {
+    grid-area: content-1;
+}
+
+.content-2 {
+    grid-area: content-2;
+}
+
+.content-3 {
+    grid-area: content-3;
+}
+
+.footer {
+    grid-area: footer;
+}
