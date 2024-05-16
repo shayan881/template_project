@@ -1,17 +1,16 @@
+.first-item {
+    grid-area: myItem;
+}
+
 .grid-container {
     display: grid;
     width: 100%;
-    grid-template-columns: auto auto auto auto;
     background-color: skyblue;
+    /* grid-template-areas: 'myItem myItem myItem'; */
+    grid-template-areas: 'myItem myItem .' 'myItem myItem .' 'myItem myItem .';
+
 }
 
-.first-item {
-    grid-area: 2 / 2 / 4 / 5;
-}
-
-.five {
-    grid-area: 3 / 2 / 4 / 4;
-}
 
 .grid-item {
     background-color: salmon;
