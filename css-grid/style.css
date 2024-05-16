@@ -1,10 +1,16 @@
 .grid-container {
     display: grid;
     width: 100%;
-    /* grid-template-columns: 150px 1fr 2fr; */
-    grid-template-columns: 100px 30% 1fr;
-    grid-template-rows: 200px 100px;
+    grid-template-columns: auto auto auto auto;
     background-color: skyblue;
+}
+
+.first-item {
+    grid-area: 2 / 2 / 4 / 5;
+}
+
+.five {
+    grid-area: 3 / 2 / 4 / 4;
 }
 
 .grid-item {
