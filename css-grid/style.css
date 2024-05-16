@@ -5,9 +5,12 @@
     /* row-gap: 30px; */
     /* gap: 40px 100px; /* gap: row column */
     gap: 20px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 100px 100px 100px 100px;
     /* grid-template-columns: repeat(3, auto); */
-
+    
+    /* grid-template-rows: 100px 300px 300px; */
+    justify-content: center;
+    
     background-color: skyblue;
     padding: 20px;
 }
@@ -28,7 +31,7 @@
 
 } */
 
-.first-item {
+/* .first-item {
     grid-row-start: 1;
     grid-row-end: 4;
-}
+} */
