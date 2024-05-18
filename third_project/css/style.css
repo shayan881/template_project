@@ -58,8 +58,23 @@ header {
     background-color: #ffffff;
     justify-content: space-around;
     padding: 25px 0;
+    position: relative;
 }
 
 nav li {
     display: none;
+    margin-right: 35px;
+    font-size: 1.3em;
+    margin-top: 13px;
+}
+
+.search-icon {
+    background-color: #FF4A52;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-icon a {
+    color: white;
 }

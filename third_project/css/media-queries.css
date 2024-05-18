@@ -1,5 +1,13 @@
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .search-icon {
+        position: absolute;
+        width: 45px;
+        right: 100px;
+        top: 0;
+        bottom: 0;
+    }
+}
 
 
 
@@ -18,7 +26,11 @@
 
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .search-icon {
+        width: 100px;
+    }
+}
 
 
 
