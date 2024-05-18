@@ -16,3 +16,50 @@ a {
 a:hover {
     color: #FF4A52;
 }
+
+li {
+    list-style: none;
+    cursor: pointer;
+    transition: color .2s;
+}
+
+li:hover {
+    color: #FF4A52;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+
+header {
+    background-color: #ffffff;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+
+nav li {
+    display: none;
+}
