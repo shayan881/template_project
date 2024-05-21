@@ -97,3 +97,34 @@ nav li {
     height: 45vw;
     flex-direction: column;
 }
+
+.slider-text h3 {
+    font-size: 8vw;
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    color: white;
+    line-height: 10vw;
+}
+
+.slider-text p {
+    font-size: 2.5vw;
+    font-weight: 400;
+    color: white;
+}
+
+.slider-btn {
+    background-color: #1ec6b6;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.7vw;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 1vw 1.5vw;
+    transition: background-color .3s;
+}
+
+.slider-btn:hover {
+    background-color: #FF4A52;
+    color: white !important;
+}
