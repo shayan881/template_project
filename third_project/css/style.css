@@ -80,3 +80,20 @@ nav li {
 .drop-down-menu a {
     color: black;
 }
+
+
+.slider {
+    width: 100%;
+    background-image: url('../images/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vw;
+}
+
+.slider-text {
+    justify-content: space-around;
+    align-items: center;
+    height: 45vw;
+    flex-direction: column;
+}
