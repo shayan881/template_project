@@ -128,3 +128,52 @@ nav li {
     background-color: #FF4A52;
     color: white !important;
 }
+
+.search-bar {
+    background-color: #040e27;
+    flex-direction: column;
+    padding: 20px 25px;
+    align-items: center;
+}
+
+.search-form {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+input {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #363e52;
+    border-radius: 5px;
+    margin: 10px 10px;
+    padding: 17px 50px;
+    color: white;
+}
+
+.search-btn {
+    background-color: #FF4A52;
+    color: white;
+    padding: 17px 39px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #1ec6b6;
+    color: white !important;
+}
+
+.search-bar h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
