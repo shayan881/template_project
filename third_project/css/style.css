@@ -69,12 +69,14 @@ nav li {
 }
 
 .search-icon {
-    background-color: #FF4A52;
     justify-content: center;
     align-items: center;
-
 }
 
 .search-icon a {
-    color: white;
+    color: black;
+}
+
+.drop-down-menu a {
+    color: black;
 }
