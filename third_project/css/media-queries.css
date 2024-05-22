@@ -55,6 +55,15 @@
     .search-icon {
         width: 100px;
     }
+
+    .search-bar {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .search-form {
+        flex-direction: column;
+    }
 }
 
 
