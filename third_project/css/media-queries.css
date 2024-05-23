@@ -69,4 +69,9 @@
 
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+    .popular-container {
+        width: 1400px;
+        margin: 0 auto;
+    }
+}
