@@ -64,6 +64,21 @@
     .search-form {
         flex-direction: column;
     }
+
+    .newsletter-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mail-form {
+        /* flex-direction: row; */
+        display: block;
+    }
+
+    .newsletter-text {
+        margin-top: 0;
+        margin-right: 10px;
+    }
 }
 
 
