@@ -405,3 +405,42 @@ article img {
 .video-button:hover {
     background-color: #FF4A52;
 }
+
+footer {
+    background-color: #040E27;
+    padding: 60px 0;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.footer-info li {
+    color: #AAB1B7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Rubik" sans-serif;
+}
+
+.links li {
+    width: 50%;
+    float: left;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.links li a {
+    color: #AAB1B7;
+    font-weight: 400;
+    font-family: "Rubik" sans-serif;
+}
+
+.left-footer {
+    margin-bottom: 20px;
+}
