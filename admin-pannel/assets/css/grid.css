@@ -22,8 +22,6 @@
 .body-header {
     background-color: #ffffff;
     width: calc(100% - 14rem);
-
-    background-color: gray;
 }
 
 .search-area {
@@ -113,4 +111,28 @@
 .header-username {
     color: #333333;
     font-size: .8rem;
+}
+
+.header-profile {
+    position: absolute;
+    margin-top: .2rem;
+    left: 10rem;
+    z-index: 1000;
+    height: auto;
+    width: 13rem;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 1px 20px 0 rgba(70, 90, 100, .08);
+    display: none;
+}
+
+.header-profile-link {
+    padding: .4rem;
+    font-size: .8rem;
+    line-height: 1.4rem;
+}
+
+.header-profile-link>i {
+    width: 2rem;
+    text-align: center;
 }
