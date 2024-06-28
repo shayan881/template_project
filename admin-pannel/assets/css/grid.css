@@ -301,3 +301,28 @@ button:hover {
     background: -webkit-gradient(linear, left top, right top, from(#01dbdf), to(#01a9ac));
     background: linear-gradient(to right, #01dbdf, #01a9ac);
 }
+
+
+@media only screen and (max-width: 767.98px) {
+    .sidebar {
+        /* display: none; */
+        width: 320px;
+        z-index: 9;
+        height: calc(100% - 3.5rem);
+        position: fixed;
+        top: 3.5rem;
+        right: 0;
+    }
+
+    .sidebar-container {
+        position: relative;
+        width: 320px;
+        height: 100%;
+        top: 0;
+    }
+
+    .main-body {
+        width: 100%;
+        z-index: 1;
+    }
+}
