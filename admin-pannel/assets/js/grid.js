@@ -19,4 +19,17 @@ $(document).ready(function () {
 
         }, 300)
     });
+
+    $("#sidebar-toggle-show").click(function () {
+        $('#sidebar').fadeIn(300);
+        removeAllSidebarToggleClass();
+
+        $("#sidebar-toggle-hide").removeClass('d-none');
+        $("#sidebar-toggle-show").addClass('d-none');
+
+    });
+
+    $("#menu-toggle").click(function () {
+        $("#body-header").toggle(300);
+    });
 });
